@@ -1,0 +1,81 @@
+
+body {
+  background-color: 
+#FAFAD2;
+  margin: 0px;
+  padding: 50px 60px;
+background-image: url('E:\GitHub\dfg\image\1.png');
+background-repeat: no-repeat;
+background-attachment:fixed;
+background-position: 30% 20%; 
+}
+
+h1 {
+  color: #EEAD0E;
+  font-family: 'Yantramanav', sans-serif;
+  font-size: 50px;
+  font-weight: 400;
+  margin: 0;
+  text-align: center;
+}
+
+
+  h2 {
+ 
+  color: #F4A460;
+  font-family: 'Georgia', sans-serif;
+  font-size: 30px;
+  font-weight: 100;
+  letter-spacing: 2px;
+  margin: 0;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+
+img {
+  padding-top: 10px;
+  vertical-align: middle;
+}
+
+.aa{ color: #F4A460;
+  font-family: 'SThupo', sans-serif;
+  font-size: 22px;
+  font-weight: 100;
+  letter-spacing: 2px;
+  margin: 0;
+  text-transform: uppercase;
+  background-color:
+  text-align: center;
+}
+
+
+.box
+ {
+  height: 80px;
+  width: 600px;
+  background-color: black;
+  color: #fff;
+  margin: 20px;
+  float: left;
+  border-radius:10px;
+ margin-left:100px;
+ }
+.aa
+{
+    position:relative;
+    animation:mymove 5s infinite;
+    -webkit-animation:mymove 5s infinite; /*Safari and Chrome*/
+    animation-iteration-count: ; //规定循环播放次数，否则一直会循环下去
+    -webkit-animation-fill-mode: forwards; // 设置动画完成定格到最后一帧，不设置播放完恢复原来的位置
+    animation-fill-mode: forwards;
+}
+
+@keyframes mymove
+{
+    from {left:0px;}
+    to {left:200px;}
+}
+————————————————
+版权声明：本文为CSDN博主「麋鹿传」的原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接及本声明。
+原文链接：https://blog.csdn.net/zhangjing0320/article/details/81639644
