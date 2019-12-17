@@ -11,10 +11,19 @@ float:right
   background-color: black;
   color: #fff;
   margin: 20px;
-  border: solid 3px white;
   float: left;
+  border-radius:3px;
 }
-
+.box2 {
+  height: 50px;
+  width: 70px;
+  background-color: black;
+  color: #fff;
+  margin: 20px;
+  float: left;
+  border-radius:3px;
+  text-align: center;
+}
 h1 {
 
   text-align: center;
